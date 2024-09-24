@@ -129,7 +129,7 @@ sudo docker ps
 🌐 Testing the Flask App
 Access the Flask application by visiting http://<EC2-Public-IP>:5000 in your web browser. You should see:
 
-![image](https://github.com/user-attachments/assets/886e137f-6518-4486-aabc-16431d23b03f)
+"C:\Users\sandh\Downloads\a02761ad-2e82-4982-a921-abd161be3379.png"
 
 Hello, Flask with PostgreSQL!
 
@@ -144,10 +144,9 @@ Host: db
 Username: user
 Password: password
 
-![image](https://github.com/user-attachments/assets/e6021a7f-5b83-47bd-92a2-908c66198f6f)
+"C:\Users\sandh\Downloads\a6f811ad-fde3-425d-9aac-8933855ddef9.png"
 
-![image](https://github.com/user-attachments/assets/72a1b693-5d19-4518-ac76-cec4ea15e305)
-
+"C:\Users\sandh\Downloads\a100ed24-3b3e-42d2-aebb-82e94b65a968.png"
 
  🎯 Conclusion
 You have successfully deployed a Python Flask app with PostgreSQL using Docker Compose. This project illustrates how to containerize multiple services and link them effectively using Docker Compose. It serves as a solid foundation for developing and testing scalable applications.
