@@ -50,9 +50,10 @@ if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
 
 Why app.py?
-Starts the Flask App: Runs the web server when the container starts.
-Defines Routes: Returns a greeting message when accessing the root URL.
-Runs the Server: Makes the app accessible externally.
+**Starts the Flask App**: Runs the web server when the container starts.
+**Defines Routes**: Returns a greeting message when accessing the root URL.
+**Runs the Server**: Makes the app accessible externally.
+
 2. Create requirements.txt
 Add the following lines to requirements.txt:
 
@@ -124,10 +125,14 @@ sudo docker-compose up --build
 ## Check that all services are running:
 
 sudo docker ps
+
 🌐 Testing the Flask App
 Access the Flask application by visiting http://<EC2-Public-IP>:5000 in your web browser. You should see:
 
+![image](https://github.com/user-attachments/assets/886e137f-6518-4486-aabc-16431d23b03f)
+
 Hello, Flask with PostgreSQL!
+
 🗃️ Testing PostgreSQL Locally (pgAdmin)
 Open your browser and go to http://<your-ec2-public-ip>:8080. Log in with the following credentials:
 
@@ -139,7 +144,12 @@ Host: db
 Username: user
 Password: password
 
-## 🎯 Conclusion
+![image](https://github.com/user-attachments/assets/e6021a7f-5b83-47bd-92a2-908c66198f6f)
+
+![image](https://github.com/user-attachments/assets/72a1b693-5d19-4518-ac76-cec4ea15e305)
+
+
+ 🎯 Conclusion
 You have successfully deployed a Python Flask app with PostgreSQL using Docker Compose. This project illustrates how to containerize multiple services and link them effectively using Docker Compose. It serves as a solid foundation for developing and testing scalable applications.
 
 
