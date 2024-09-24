@@ -117,20 +117,16 @@ services:
 5. Build and Run the Application
 Run the following command to deploy the application using Docker Compose:
 
-bash
-Copy code
 sudo docker-compose up --build
-6. Verify Running Containers
-Check that all services are running:
 
-bash
-Copy code
+6. Verify Running Containers
+
+## Check that all services are running:
+
 sudo docker ps
 🌐 Testing the Flask App
 Access the Flask application by visiting http://<EC2-Public-IP>:5000 in your web browser. You should see:
 
-csharp
-Copy code
 Hello, Flask with PostgreSQL!
 🗃️ Testing PostgreSQL Locally (pgAdmin)
 Open your browser and go to http://<your-ec2-public-ip>:8080. Log in with the following credentials:
@@ -142,13 +138,10 @@ Add a new server in pgAdmin with these details:
 Host: db
 Username: user
 Password: password
-🎯 Conclusion
+
+## 🎯 Conclusion
 You have successfully deployed a Python Flask app with PostgreSQL using Docker Compose. This project illustrates how to containerize multiple services and link them effectively using Docker Compose. It serves as a solid foundation for developing and testing scalable applications.
 
 
-echo '```python' >> README.md
-echo 'def hello_world():' >> README.md
-echo '    print("Hello, World!")' >> README.md
-echo '```' >> README.md
 
 
