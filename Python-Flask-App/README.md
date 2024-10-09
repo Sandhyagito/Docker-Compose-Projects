@@ -58,12 +58,14 @@ Why app.py?
 2. Create requirements.txt
 Add the following lines to requirements.txt:
 
+```python
 Flask==2.0.1
 Werkzeug==2.0.1
-
+``` 
 3. Create the Dockerfile
 Add the following content to the Dockerfile:
 
+```bash
 # Use the official Python image
 FROM python:3.9
 
@@ -81,10 +83,12 @@ COPY . .
 
 # Command to run the app
 CMD ["python", "app.py"]
+```
 
 4. Create docker-compose.yml
 Add the following content to docker-compose.yml:
 
+```bash
 version: '3'
 services:
   web:
@@ -115,6 +119,7 @@ services:
       - "8080:80"
     depends_on:
       - db
+```
 
 5. Build and Run the Application
 Run the following command to deploy the application using Docker Compose:
@@ -135,6 +140,7 @@ Access the Flask application by visiting http://<EC2-Public-IP>:5000 in your web
 Hello, Flask with PostgreSQL!
 
 🗃️ Testing PostgreSQL Locally (pgAdmin)
+
 Open your browser and go to http://<your-ec2-public-ip>:8080. Log in with the following credentials:
 
 Email: admin@example.com
