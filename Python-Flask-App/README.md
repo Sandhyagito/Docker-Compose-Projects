@@ -21,8 +21,12 @@ Before you begin, ensure you have the following:
 ## 📁 Project Structure
 
 Here's an overview of the project directory structure:
-
-├── app.py # Flask application logic ├── Dockerfile # Instructions to build the Flask app Docker image ├── docker-compose.yml # Configuration for Flask, PostgreSQL, and PgAdmin services └── requirements.txt # Flask and dependency versions
+```bash
+├── app.py               # Flask application logic 
+├── Dockerfile           # Instructions to build the Flask app Docker image 
+├── docker-compose.yml   # Configuration for Flask, PostgreSQL, and PgAdmin services 
+└── requirements.txt     # Flask and dependency versions
+```
 
 ### File Descriptions
 
