@@ -48,6 +48,7 @@ def hello():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
+``` 
 
 Why app.py?
 **Starts the Flask App**: Runs the web server when the container starts.
